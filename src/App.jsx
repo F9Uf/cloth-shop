@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
+import TheHeader from './components/TheHeader'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <h1 className="text-purple-600">hello</h1>
+      <TheHeader />
+      
     </div>
   )
 }
