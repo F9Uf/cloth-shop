@@ -3,6 +3,7 @@ import TheBanner from './components/TheBanner'
 import TheHeader from './components/TheHeader'
 import TheNavbar from './components/TheNavbar'
 import TheContent from './components/TheContent'
+import TheFooter from './components/TheFooter'
 
 function App() {
   const [sortByOptions, _] = useState([
@@ -13,12 +14,13 @@ function App() {
   ])
 
   return (
-    <div className="App">
+    <>
       <TheHeader />
       <TheBanner />
       <TheNavbar sortByOptions={sortByOptions} />
       <TheContent />
-    </div>
+      <TheFooter />
+    </>
   )
 }
 
