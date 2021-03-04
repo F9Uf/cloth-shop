@@ -28,11 +28,30 @@ const ProductPage = () => {
       <div className="bg-black w-full sm:h-20 h-32 -mt-3"></div>
       {
         product ? (
-          <div className="flex justify-between sm:px-28 px-3 my-5 sm:space-x-3 sm:flex-row flex-col">
+          <div className="flex justify-between sm:px-28 px-3 sm:my-16 my-8 sm:space-x-10 sm:space-y-0 space-y-4 sm:flex-row flex-col">
             <div className="sm:w-1/2 w-full">
               <TheGallery pictures={product.pictures} />
             </div>
-            <div className="sm:w-1/2 w-full">asdlkfhl</div>
+            <div className="sm:w-1/2 w-full">
+              <h1 className="sm:text-3xl text-xl">{product.name}</h1>
+              <h2 className="sm:text-3xl text-xl my-4 font-bold">฿{product.price}</h2>
+              <hr/>
+              <h2 className="text-lg font-semibold text-gray-700 my-4">Size</h2>
+              <div className="size-section flex flex-row space-x-3">
+                {
+                  product.available_size &&
+                  product.available_size.map(size => (
+                    <div className="size bg-white rounded-full border-gray-400 border w-16 text-center cursor-pointer">
+                      {size}
+                    </div>
+                  ))
+                }
+              </div>
+              <button
+                className="my-10 text-white bg-black w-full rounded-sm py-5 outline-none focus:outline-none hover:opacity-90 transition-all ease-in-out">
+                  ADD TO CART
+                </button>
+            </div>
           </div>
         ) :
         (
