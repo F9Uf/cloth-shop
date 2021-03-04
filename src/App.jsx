@@ -1,9 +1,14 @@
 import React, { useState } from 'react'
+
+import useProduct from './hooks/product';
+
 import TheBanner from './components/TheBanner'
 import TheHeader from './components/TheHeader'
 import TheNavbar from './components/TheNavbar'
 import TheContent from './components/TheContent'
 import TheFooter from './components/TheFooter'
+
+import productsJson from './assets/data.json'
 
 function App() {
   const [menus, setMenus] = useState([
@@ -20,12 +25,14 @@ function App() {
     { id: 3, value: 3, text: 'value 3' },
   ])
 
+  const [products, setProducts] = useProduct(productsJson);
+
   return (
     <>
       <TheHeader menus={menus} />
       <TheBanner />
       <TheNavbar sortByOptions={sortByOptions} />
-      <TheContent />
+      <TheContent products={products} />
       <TheFooter menus={menus}/>
     </>
   )

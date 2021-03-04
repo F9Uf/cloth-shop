@@ -1,0 +1,44 @@
+[
+  { 
+    "id": 0,
+    "name": "SHEIN Men Collared Floral Embroidery Colorblock Shirt",
+    "price": 700,
+    "available_size": ["S", "M", "L", "XL"],
+    "thumbnail": "https://img.ltwebstatic.com/images3_pi/2021/01/19/1611031856bbaecb9b67430df7870ef738bef0bc45_thumbnail_900x.webp",
+    "pictures": [
+      "https://img.ltwebstatic.com/images3_pi/2021/01/19/1611031856bbaecb9b67430df7870ef738bef0bc45_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/01/19/1611031859c6b451bb603b75f3b7979bfb3ff78ae8_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/01/19/161103186276cf95b900628db7285526f9187346b8_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/01/19/16110318659b99ecc111cf6f77c60e7c05824bdf85_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/01/19/1611031868bad20a00bbbb63dc3c68e5b0261ac741_thumbnail_900x.webp"
+    ]
+  },
+  { 
+    "id": 1,
+    "name": "SHEIN Men Revere Collar Flap Pocket Shirt",
+    "price": 510,
+    "available_size": ["S", "M", "L", "XL"],
+    "thumbnail": "https://img.ltwebstatic.com/images3_pi/2021/02/04/16124035458dbe82cd76794d8d93e3064e81b3f13d_thumbnail_900x.webp",
+    "pictures": [
+      "https://img.ltwebstatic.com/images3_pi/2021/02/04/16124035458dbe82cd76794d8d93e3064e81b3f13d_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/04/1612403548951ebe27dc9c5b62dce0385ed232ca4d_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/04/161240355359bedbf3053147f60977ea112be86949_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/04/1612403561eb82b59579e96e763eb65e4409709126_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/04/1612403566009a3d893dd6225d9cc3ff188f1c4a20_thumbnail_900x.webp"
+    ]
+  },
+  { 
+    "id": 2,
+    "name": "SHEIN Men Drawstring Waist Contrast Piping Pants",
+    "price": 1200,
+    "available_size": ["S", "M", "L", "XL"],
+    "thumbnail": "https://img.ltwebstatic.com/images3_pi/2021/02/04/1612403843261f04514d42253a381c8e5ee0ad4a69_thumbnail_900x.webp",
+    "pictures": [
+      "https://img.ltwebstatic.com/images3_pi/2021/02/04/1612403843261f04514d42253a381c8e5ee0ad4a69_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/04/1612403845c48ecca96f74dd2f44a779ebeb97f450_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/04/1612403852bb69ca03890239f3b187c3e612d1f2ec_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/04/16124038577a8b87dcba126b20c4a7b17faee88f12_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/04/1612403862520f9ff3a750e552d0594b2837e97266_thumbnail_900x.webp"
+    ]
+  }
+]
