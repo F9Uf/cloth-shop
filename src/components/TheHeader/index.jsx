@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import TheMenus from '../TheMenus'
 
 function TheHeader({ menus=[]}) {
@@ -27,7 +28,9 @@ function TheHeader({ menus=[]}) {
         <div className="left-menu text-sm w-40 sm:flex justify-end text-center hidden">
           <TheMenus menus={menus.filter(e => e.pos === 'left')}/>
         </div>
-        <h1 className="title font-bold text-xl text-center text-white w-40">CLOTH SHOP</h1>
+        <Link to="/">
+          <h1 className="title font-bold text-xl text-center text-white w-40">CLOTH SHOP</h1>
+        </Link>
         <div className="right-menu text-sm w-40 text-center hidden sm:flex">
           <TheMenus menus={menus.filter(e => e.pos === 'right')}/>
         </div>
