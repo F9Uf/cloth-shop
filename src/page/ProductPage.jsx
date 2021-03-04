@@ -40,8 +40,8 @@ const ProductPage = () => {
               <div className="size-section flex flex-row space-x-3">
                 {
                   product.available_size &&
-                  product.available_size.map(size => (
-                    <div className="size bg-white rounded-full border-gray-400 border w-16 text-center cursor-pointer">
+                  product.available_size.map((size, index) => (
+                    <div className="size bg-white rounded-full border-gray-400 border w-16 text-center cursor-pointer" key={index}>
                       {size}
                     </div>
                   ))
