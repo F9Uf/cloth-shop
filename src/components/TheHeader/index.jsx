@@ -9,13 +9,13 @@ function TheHeader() {
     { id: 3, title: 'Contact me', link: '/', pos: 'right' },
   ])
   return (
-    <header className="p-5 border-b-2 shadow-xs sticky top-0 bg-white">
+    <header className="p-5 top-0 fixed w-full z-50 text-white">
       <div className="menu flex flex-row justify-center items-center space-x-10">
-        <div className="left-menu">
+        <div className="left-menu text-sm">
           <TheMenus menus={menus.filter(e => e.pos === 'left')}/>
         </div>
-        <h1 className="title font-bold text-xl text-center text-gray-700">CLOTH SHOP</h1>
-        <div className="right-menu">
+        <h1 className="title font-bold text-xl text-center text-white">CLOTH SHOP</h1>
+        <div className="right-menu text-sm">
           <TheMenus menus={menus.filter(e => e.pos === 'right')}/>
         </div>
       </div>
