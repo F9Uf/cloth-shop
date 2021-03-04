@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import CardItem from '../CardItem'
 
 const TheContent = ({ products }) => {
@@ -9,7 +10,9 @@ const TheContent = ({ products }) => {
         products.length > 0 &&
         products
         .map(product => (
-          <CardItem product={product} key={product.id} />
+          <Link to={"/product/" + product.id} key={product.id}>
+            <CardItem product={product}/>
+          </Link>
         ))
       }
     </div>

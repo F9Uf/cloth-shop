@@ -3,16 +3,10 @@ import React, { useState } from 'react'
 import TheHeader from './components/TheHeader'
 import TheFooter from './components/TheFooter'
 
-import { Route, Switch, useParams } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import HomePage from './page/HomePage'
-
-const ProductPage = () => {
-  const { id } = useParams();
-  return (
-    <h1>id: {id}</h1>
-  )
-}
+import ProductPage from './page/ProductPage'
 
 function App() {
   const [menus, setMenus] = useState([
