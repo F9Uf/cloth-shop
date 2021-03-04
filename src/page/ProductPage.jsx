@@ -28,11 +28,11 @@ const ProductPage = () => {
       <div className="bg-black w-full sm:h-20 h-32 -mt-3"></div>
       {
         product ? (
-          <div className="flex justify-between sm:px-28 px-3 my-5">
-            <div className="w-1/2">
+          <div className="flex justify-between sm:px-28 px-3 my-5 sm:space-x-3 sm:flex-row flex-col">
+            <div className="sm:w-1/2 w-full">
               <TheGallery pictures={product.pictures} />
             </div>
-            <div className="w-1/2">asdlkfhl</div>
+            <div className="sm:w-1/2 w-full">asdlkfhl</div>
           </div>
         ) :
         (
