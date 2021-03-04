@@ -30,7 +30,7 @@ const ProductPage = () => {
         product ? (
           <div className="flex justify-between sm:px-28 px-3 my-5">
             <div className="w-1/2">
-              <TheGallery pictures={product} />
+              <TheGallery pictures={product.pictures} />
             </div>
             <div className="w-1/2">asdlkfhl</div>
           </div>
