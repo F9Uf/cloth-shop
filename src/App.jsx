@@ -9,6 +9,15 @@ import TheContent from './components/TheContent'
 import TheFooter from './components/TheFooter'
 
 import productsJson from './assets/data.json'
+import { Route, Switch, useParams } from 'react-router-dom';
+
+const Home = () => <h1>Home</h1>
+const ProductPage = () => {
+  const { id } = useParams();
+  return (
+    <h1>id: {id}</h1>
+  )
+}
 
 function App() {
   const [menus, setMenus] = useState([
@@ -32,7 +41,11 @@ function App() {
       <TheHeader menus={menus} />
       <TheBanner />
       <TheNavbar sortByOptions={sortByOptions} />
-      <TheContent products={products} />
+      {/* <TheContent products={products} /> */}
+      <Switch>
+        <Route path="/product/:id" component={ProductPage} />
+        <Route path="/" component={Home} />
+      </Switch>
       <TheFooter menus={menus}/>
     </>
   )
