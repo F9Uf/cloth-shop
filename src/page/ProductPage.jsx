@@ -25,7 +25,7 @@ const ProductPage = () => {
 
   return (
     <>
-      <div className="bg-black w-full h-20 -mt-3"></div>
+      <div className="bg-black w-full sm:h-20 h-32 -mt-3"></div>
       {
         product ? (
           <div className="flex justify-between sm:px-28 px-3 my-5">
