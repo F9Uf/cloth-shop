@@ -40,5 +40,47 @@
       "https://img.ltwebstatic.com/images3_pi/2021/02/04/16124038577a8b87dcba126b20c4a7b17faee88f12_thumbnail_900x.webp",
       "https://img.ltwebstatic.com/images3_pi/2021/02/04/1612403862520f9ff3a750e552d0594b2837e97266_thumbnail_900x.webp"
     ]
+  },
+  { 
+    "id": 3,
+    "name": "SHEIN Men Notch Collar Allover Paisley Print Shirt",
+    "price": 370,
+    "available_size": ["S", "M", "L", "XL", "XXL"],
+    "thumbnail": "https://img.ltwebstatic.com/images3_pi/2021/01/19/161103167431b005746f26acd8e5c61117c893a8e9_thumbnail_900x.webp",
+    "pictures": [
+      "https://img.ltwebstatic.com/images3_pi/2021/01/19/161103167431b005746f26acd8e5c61117c893a8e9_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/01/19/16110316774f2b7556362c272cf908a3d31779c30a_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/01/19/16110316879558f48baa3091ea4840aed377d420f0_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/01/19/16110317012056c9d96574de11d64ed0fe8bafe660_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/01/19/1611031697c78b72e5119277ed6f2c7421b2dba105_thumbnail_900x.webp"
+    ]
+  },
+  { 
+    "id": 4,
+    "name": "SHEIN Men Solid Button Front Shirt",
+    "price": 350,
+    "available_size": ["S", "M", "L", "XL"],
+    "thumbnail": "https://img.ltwebstatic.com/images3_pi/2021/02/03/1612347430b491a7366409bb9201d74f2a34102fe7_thumbnail_900x.webp",
+    "pictures": [
+      "https://img.ltwebstatic.com/images3_pi/2021/02/03/1612347430b491a7366409bb9201d74f2a34102fe7_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/03/161234743528df53c935be786bf48136d9ef8fd000_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/03/1612347437f9aa5326de717a8c84dd221aa7652c8a_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/03/161234744706f017ee4da2a2339d12e8ed08888ba5_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/03/161234744988c42db3f758209019f21f4fee8579b5_thumbnail_900x.webp"
+    ]
+  },
+  { 
+    "id": 5,
+    "name": "SHEIN Men Letter Graphic Tee",
+    "price": 230,
+    "available_size": ["S", "M", "L", "XL"],
+    "thumbnail": "https://img.ltwebstatic.com/images3_pi/2021/02/03/16123474392c25073a0ffbd286f8e9b0d101421352_thumbnail_900x.webp",
+    "pictures": [
+      "https://img.ltwebstatic.com/images3_pi/2021/02/03/16123474392c25073a0ffbd286f8e9b0d101421352_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/03/16123474449ebc3a0b70945d08a05b5c4283f88e55_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/03/1612347447dfb28dbce4d8d756c5c1dd176e4abdbf_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/03/161234745899b9da566c7b1cd9684ef0275e344e64_thumbnail_900x.webp",
+      "https://img.ltwebstatic.com/images3_pi/2021/02/03/1612347460e4b11f0b4c942751b3d47036e6ae4f16_thumbnail_900x.webp"
+    ]
   }
 ]
