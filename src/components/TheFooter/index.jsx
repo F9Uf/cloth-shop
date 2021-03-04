@@ -6,13 +6,7 @@ import lineIcon from '../../assets/icon/line.svg'
 import instagramIcon from '../../assets/icon/instagram.svg'
 import twitterIcon from '../../assets/icon/twitter.svg'
 
-const TheFooter = () => {
-  const [menus, _] = useState([
-    { id: 0, title: 'Collection', link: '/', pos: 'left' },
-    { id: 1, title: 'About me', link: '/', pos: 'left' },
-    { id: 2, title: 'Q/A', link: '/', pos: 'right' },
-    { id: 3, title: 'Contact me', link: '/', pos: 'right' },
-  ])
+const TheFooter = ({ menus=[] }) => {
   return (
     <footer className="py-5 px-3 sm:px-28 bg-black text-white flex flex-col">
       <div className="footer-menu pb-4 font-extralight text-xs flex flex-row justify-between">
