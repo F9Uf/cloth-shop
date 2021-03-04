@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import TheMenus from './TheMenus'
 
 function TheHeader() {
@@ -8,8 +8,28 @@ function TheHeader() {
     { id: 2, title: 'Q/A', link: '/', pos: 'right' },
     { id: 3, title: 'Contact me', link: '/', pos: 'right' },
   ])
+
+  const [headerClass, setHeaderClass] = useState('')
+
+  const handlerScroll = () => {
+    if (window.pageYOffset > 0) {
+      setHeaderClass('bg-black')
+    } else {
+      setHeaderClass('bg-transparent')
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handlerScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handlerScroll)
+    }
+  })
+
+
   return (
-    <header className="p-5 top-0 fixed w-full z-50 text-white">
+    <header className={"p-5 top-0 fixed w-full z-50 text-white transition duration-1000 ease-in-out " + headerClass}>
       <div className="menu flex flex-row justify-center items-center space-x-10">
         <div className="left-menu text-sm">
           <TheMenus menus={menus.filter(e => e.pos === 'left')}/>
