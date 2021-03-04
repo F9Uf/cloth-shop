@@ -1,9 +1,9 @@
 import React from 'react'
 import './index.css'
 
-const TheMenus = ({ menus }) => {
+const TheMenus = ({ menus, direction='row' }) => {
   return (
-    <ul className="flex space-x-6">
+    <ul className={`flex flex-${direction} ${direction === 'row' ? 'space-x-6' : ''}`}>
       {menus && menus
         .map(menu => (
           <li key={menu.id} className="menu">

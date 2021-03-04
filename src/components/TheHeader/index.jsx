@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import TheMenus from './TheMenus'
+import TheMenus from '../TheMenus'
 
 function TheHeader() {
   const [menus, _] = useState([
