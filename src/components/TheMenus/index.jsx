@@ -3,7 +3,7 @@ import './index.css'
 
 const TheMenus = ({ menus, direction='row' }) => {
   return (
-    <ul className={`flex flex-${direction} ${direction === 'row' ? 'space-x-6' : ''}`}>
+    <ul className={`flex flex-${direction} ${direction === 'row' ? 'space-x-6' : 'space-y-3'}`}>
       {menus && menus
         .map(menu => (
           <li key={menu.id} className="menu">
