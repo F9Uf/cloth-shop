@@ -9,7 +9,7 @@ import HomePage from './page/HomePage'
 import ProductPage from './page/ProductPage'
 
 function App() {
-  const [menus, setMenus] = useState([
+  const [menus, _] = useState([
     { id: 0, title: 'Collection', link: '/', pos: 'left' },
     { id: 1, title: 'About me', link: '/', pos: 'left' },
     { id: 2, title: 'Q/A', link: '/', pos: 'right' },
